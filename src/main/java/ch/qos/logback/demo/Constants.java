@@ -17,7 +17,7 @@ public class Constants {
 
 
   public static final String GUESSED_NUMBER = "guessed_number";
-  public static final Integer WINNING_NUMBER = new Integer(99);
+  public static final Integer WINNING_NUMBER = Integer.valueOf(99);
   
   public static final String CYCLIC_BUFFER_APPENDER_NAME = "CYCLIC";
   
